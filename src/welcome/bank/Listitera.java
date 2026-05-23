@@ -36,14 +36,14 @@ import java.util.ListIterator;
 	        
             System.out.println("Backward iterator");
             
-            while (it1.hasPrevious()) {
+           it1.hasPrevious();
             	
             	
-            	int xyz = it1.previous();
+            	 it1.previous();
             	
             	String bca = String.valueOf(xyz);
                
-            	System.out.println(Arrays.toString(numbers.toArray()));
+            	System.out.println(Arrays.toString(numbers.toArray(it1.previous())));
                
             }   
            
